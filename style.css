@@ -86,9 +86,9 @@ button::hover{
     #profiles{
         flex-wrap: wrap;
         justify-content: center;
-        margin: 10%;
-
     }
+  .card{
+width: 80%; }
 .card h3{
     font-size: 2em;
     padding: 5px;
