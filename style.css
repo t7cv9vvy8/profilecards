@@ -45,17 +45,7 @@ img{
     border: 2px solid red;
     border-radius: 30px;
     margin: 20px;
-    margin-left: 155px; /*  still this not worked to center the button in the dev but is ok*/
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; 
-    i use this but it does not worked
-    */
-    /* margin-top: 1%;
-    margin-left: 30%; 
-    this not worked proferly so i removed
-    */
+    margin-left: 155px
 }
 
 footer h3{
@@ -79,14 +69,11 @@ footer h3{
     width: 570px;
 }
 
-button::after{
-    /* background-color: rgb(227, 104, 104);
+button::hover{
+    background-color: rgb(227, 104, 104);
     color: rgb(13, 255, 0);
     border-color: rgb(0, 55, 255);
-    width: 110%; just little begger than the real
-
-    this also did not worked  */
-
+    width: 110%;
 }
 
 
