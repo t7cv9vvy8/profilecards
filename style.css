@@ -42,14 +42,14 @@ img{
     text-align: justify;
     max-width: 100%;
 }
-.card .btn{
+.card .btn,button {
     font-size: 2em;
     background-color: yellow;
     border: 2px solid red;
     border-radius: 30px;
     display: flex;
     justify-content: center;
-    
+    margin: 0;    
 }
 
 footer h3{
@@ -70,7 +70,7 @@ footer h3{
     color: red;
     box-shadow: 2px 5px 10px green;
     border: 2px blue dashed;
-    width: 570px;
+    width: 505px;
 }
 
 .card .btn:hover{
@@ -87,7 +87,7 @@ footer h3{
         justify-content: space-around;
     }
   .card{
-width: 80%; }
+width: 80%;}
 .card h3{
     font-size: 2em;
     padding: 5px;
