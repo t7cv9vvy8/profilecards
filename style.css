@@ -39,13 +39,14 @@ img{
     padding: 10px;
     margin: auto 5px;
 }
-.card button{
+.card btn{
     font-size: 2em;
     background-color: yellow;
     border: 2px solid red;
     border-radius: 30px;
-    margin: 20px;
-    margin-left: 155px
+    display: flex;
+    justify-content: center;
+    
 }
 
 footer h3{
@@ -81,6 +82,8 @@ button::hover{
 @media (max-width: 600px){
     #profiles{
         flex-wrap: wrap;
+        justify-content: space-around;
+
     }
 .card h3{
     font-size: 2em;
