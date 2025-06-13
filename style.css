@@ -43,7 +43,7 @@ img{
     max-width: 100%;
 }
 .card .btn,button {
-    font-size: 2em;
+    width: 100px;    font-size: 2em;
     background-color: yellow;
     border: 2px solid red;
     border-radius: 30px;
@@ -88,6 +88,8 @@ footer h3{
     }
   .card{
 width: 80%;}
+  .card:hover{
+width: 85%;}
 .card h3{
     font-size: 2em;
     padding: 5px;
