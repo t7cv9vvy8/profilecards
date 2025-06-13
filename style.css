@@ -95,5 +95,23 @@ button::after{
     #profiles{
         flex-wrap: wrap;
     }
-
+.card h3{
+    font-size: 2em;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+ 
+}
+.card p{
+    font-size: 1.2em;
+    padding: 10px;
+    margin: auto 5px;
+       word-wrap: break-word;
+}
+.card button{
+    font-size: 2em;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 30px;
+    margin: 20px;}
 }
