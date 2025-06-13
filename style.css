@@ -107,6 +107,8 @@ button::after{
     padding: 10px;
     margin: auto 5px;
        word-wrap: break-word;
+    text-align: justify;
+    max-width: 100%;
 }
 .card button{
     font-size: 2em;
