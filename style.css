@@ -49,7 +49,7 @@ img{
     border-radius: 30px;
 }
 
-.card btn{display: flex;
+.card .btn{display: flex;
     justify-content: center;
     margin: 0;    }
 
@@ -74,8 +74,8 @@ footer h3{
     width: 505px;
 }
 
-.card .button:hover{
-    background-color: rgb(227, 104, 104);
+.card button:hover{
+    background-color: yellow;
     color: rgb(13, 255, 0);
     border-color: rgb(0, 55, 255);
 }
@@ -106,7 +106,7 @@ width: 85%;}
     text-align: justify;
     max-width: 100%;
 }
-.card .button{
+.card button{
     font-size: 2em;
     background-color: yellow;
     border: 2px solid red;
