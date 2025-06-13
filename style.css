@@ -42,15 +42,16 @@ img{
     text-align: justify;
     max-width: 100%;
 }
-.card .btn,button {
-    width: 100px;    font-size: 2em;
+.card button {
+    font-size: 2em;
     background-color: yellow;
     border: 2px solid red;
     border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    margin: 0;    
 }
+
+.card btn{display: flex;
+    justify-content: center;
+    margin: 0;    }
 
 footer h3{
     margin-top: 50px;
@@ -73,7 +74,7 @@ footer h3{
     width: 505px;
 }
 
-.card .btn:hover{
+.card .button:hover{
     background-color: rgb(227, 104, 104);
     color: rgb(13, 255, 0);
     border-color: rgb(0, 55, 255);
@@ -105,7 +106,7 @@ width: 85%;}
     text-align: justify;
     max-width: 100%;
 }
-.card .btn{
+.card .button{
     font-size: 2em;
     background-color: yellow;
     border: 2px solid red;
