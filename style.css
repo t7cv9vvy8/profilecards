@@ -38,6 +38,9 @@ img{
     font-size: 1.2em;
     padding: 10px;
     margin: auto 5px;
+    overflow-wrap: break-word;
+    text-align: justify;
+    max-width: 100%;
 }
 .card btn{
     font-size: 2em;
@@ -82,7 +85,8 @@ button::hover{
 @media (max-width: 600px){
     #profiles{
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
+        margin: 10%;
 
     }
 .card h3{
@@ -96,14 +100,16 @@ button::hover{
     font-size: 1.2em;
     padding: 10px;
     margin: auto 5px;
-       overflow-wrap: break-word;
+    overflow-wrap: break-word;
     text-align: justify;
     max-width: 100%;
 }
-.card button{
+.card btn{
     font-size: 2em;
     background-color: yellow;
     border: 2px solid red;
     border-radius: 30px;
-    margin: 20px;}
+    display: flex;
+    justify-content: center;
+}
 }
